@@ -2,9 +2,9 @@
 
 int main() 
 {
-  int a, b, c;
+  	int a, b, c;
 	while (1) 
-    {
+    	{
 		scanf("%d %d %d", &a, &b, &c);
 
 		if (a == 0 && b == 0 && c == 0)
@@ -14,7 +14,7 @@ int main()
 			printf("Invalid\n");
         
 		else if (a == b || b == c || a == c) 
-        {
+        	{
 			if (a == b && b == c && c == a)
 				printf("Equilateral\n");
 			else
