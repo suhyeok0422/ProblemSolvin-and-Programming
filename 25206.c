@@ -6,10 +6,10 @@ int main()
   char sub[51], grade[3];
   
 	for (int i = 0;i < 20;i++) 
-  {
+  	{
 		scanf("%s %f %s", &sub, &num, &grade);
 		if (grade[0] != 'P' && grade[0] != 'F') 
-    {
+    		{
 			if (grade[0] == 'A') 
 				now_g = 4.0;
 			else if (grade[0] == 'B') 
@@ -26,7 +26,7 @@ int main()
 			total_gra += num;
 		}
 		else 
-    {
+    		{
 			if (grade[0] == 'F') 
 				total_gra += num;
 		}
